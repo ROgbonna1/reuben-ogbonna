@@ -25,6 +25,10 @@ background-size: cover;
 
 #header {
   background-color: transparent;
+  display: block;
+  position: fixed;
+  float: top;
+  width: 100%;
 }
 
 .button {
