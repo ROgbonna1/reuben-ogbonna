@@ -55,6 +55,32 @@ section#about h1 {
   margin-top: 10%;
 }
 
+section#about.wrapper {
+  display: block;
+  float: left;
+  margin-top: 10%;
+}
+
+div#column1 {
+  display: inline-block;
+  width: 31%;
+  margin-right: 3.5%;
+  float: left;
+}
+
+div#column2 {
+  display: inline-block;
+  width: 31%;
+  float: left;
+}
+
+div#column3 {
+  display: inline-block;
+  width: 31%;
+  margin-left: 3.5%;
+  float: left;
+}
+
 section#projects {
   position: absolute;
   top: 1300px;
