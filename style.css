@@ -51,8 +51,46 @@ section#about {
 
 section#about h1 {
   position: relative;
+  color: #a2482e;
   margin-top: 10%;
 }
+
+section#projects {
+  position: absolute;
+  top: 1300px;
+  height: 600px;
+}
+
+section#projects h1 {
+  position: relative;
+  color: #a2482e;
+  margin-top: 10%;
+}
+
+section#photos {
+  position: absolute;
+  top: 1950px;
+  height: 600px;
+}
+
+section#photos h1 {
+  position: relative;
+  color: #a2482e;
+  margin-top: 10%;
+}
+
+section#thoughts {
+  position: absolute;
+  top: 2600px;
+  height: 600px;
+}
+
+section#thoughts h1 {
+  position: relative;
+  color: #a2482e;
+  margin-top: 10%;
+}
+
 a {
   color: #FFFFFF;
 }
