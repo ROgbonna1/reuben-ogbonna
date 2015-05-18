@@ -48,6 +48,7 @@ section#about {
   position: absolute;
   top: 650px;
   height: 600px;
+  z-index: -100;
 }
 
 section#about h1 {
@@ -86,6 +87,7 @@ section#projects {
   position: absolute;
   top: 1300px;
   height: 600px;
+  z-index: -100;
 }
 
 section#projects h1 {
@@ -98,6 +100,7 @@ section#photos {
   position: absolute;
   top: 1950px;
   height: 600px;
+  z-index: -100;
 }
 
 section#photos h1 {
@@ -110,6 +113,7 @@ section#thoughts {
   position: absolute;
   top: 2600px;
   height: 600px;
+  z-index: -100;
 }
 
 section#thoughts h1 {
