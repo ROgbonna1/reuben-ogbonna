@@ -6,7 +6,7 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-video#surfingvid {
+video#dreamrisedo-vid {
 position: absolute; right: 0; bottom: 0;
 min-width: 100%; min-height: 700px;
 width: auto; height: auto; z-index: -100;
@@ -42,6 +42,7 @@ background-size: cover;
   color: #FFFFFF;
   margin-left: 10%;
 }
+
 
 section#about {
   position: absolute;
