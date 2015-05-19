@@ -134,9 +134,32 @@ section#photos h1 {
   margin-top: 10%;
 }
 
+#collage {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#collage img {
+  /* Just in case there are inline attributes */
+  opacity: 0.7;
+  width: 100% !important;
+  height: auto !important;
+}
+
+#collage img:hover {
+  opacity: 1.0;
+}
+  
 section#thoughts {
   position: absolute;
-  top: 2600px;
+  top: 3200px;
   height: 600px;
   z-index: -100;
 }
