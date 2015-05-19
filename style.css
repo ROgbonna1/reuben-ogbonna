@@ -96,6 +96,31 @@ section#projects h1 {
   margin-top: 10%;
 }
 
+div.project-avi {
+  display: inline-block;
+  width: 30%;
+}
+
+div.project-avi img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  border: 2px solid #FFFFFF;
+  float: left;
+}
+
+div.project-avi img:hover {
+  border: 4px solid #FFFFFF;
+}
+
+div.project-description {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  height: 200px;
+  margin-right: 5%;
+}
+
 section#photos {
   position: absolute;
   top: 1950px;
@@ -134,12 +159,12 @@ a:link {
 a:hover {
   text-decoration: none;
   font-size: 1.5em;
+  color: #a2482e;
 }
 
 a:visited {
   text-decoration: none;
 }
-
 
 a {
   color: #FFFFFF;
