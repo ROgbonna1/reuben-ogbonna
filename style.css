@@ -162,12 +162,17 @@ section#thoughts {
   top: 3200px;
   height: 600px;
   z-index: -100;
+  margin-right: 5%;
 }
 
 section#thoughts h1 {
   position: relative;
   color: #a2482e;
   margin-top: 10%;
+}
+
+section#thoughts p {
+  text-indent: 50px;
 }
 
 a {
