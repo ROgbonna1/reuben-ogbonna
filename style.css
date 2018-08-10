@@ -8,7 +8,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 1;
 }
   
 i.thumbnail {
@@ -28,4 +28,18 @@ i.fa-meetup {
   font-size: 4.7em;
   border-width: 2px;
   vertical-align: top;
+}
+
+.preload {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
 }
